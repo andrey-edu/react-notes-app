@@ -1,0 +1,17 @@
+.app {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  overflow: hidden;
+}
+
+.dark {
+  --bg-color-main: var(--clr-10);
+  --color-main: var(--clr-11);
+  --bg-color-accent: var(--clr-12);
+  --bg-color-active: var(--clr-13);
+  --bg-color-danger: var(--clr-14);
+  --color-border: var(--clr-15);
+  --bg-color-active2: var(--clr-5);
+}

@@ -1,0 +1,58 @@
+@import url("./typography.css");
+@import url("./box.css");
+
+* {
+  margin: 0;
+  outline: none;
+  font-family: var(--ff);
+  font-weight: var(--fw-normal);
+  font-size: var(--fs);
+  box-sizing: border-box;
+  transition: color var(--tran-1), background-color var(--tran-1);
+
+  /* Убираум синюю заливку при нажатии на телефонах*/
+  -webkit-tap-highlight-color: transparent;
+}
+
+:root {
+  --clr-1: #000;
+  --clr-2: #adadad;
+  --clr-3: #ececec;
+  --clr-4: #ef4f44;
+  --clr-5: #fff;
+  --clr-6: #fbfbfa;
+  --clr-7: #eee;
+  --clr-8: #000;
+  --clr-9: #ffe2dd;
+
+  --clr-10: #1f1f1f;
+  --clr-11: #f8f8f8;
+  --clr-12: #2c2c2e;
+  --clr-13: #39393D;
+  --clr-14: #791D0E;
+  --clr-15: #3c3c40;
+
+  --color-main: var(--clr-1);
+  --color-light: var(--clr-2);
+  --color-border: var(--clr-3);
+  --color-danger: var(--clr-4);
+
+  --bg-color-main: var(--clr-5);
+  --bg-color-accent: var(--clr-6);
+  --bg-color-active: var(--clr-7);
+  --bg-color-active2: var(--clr-8);
+  --bg-color-danger: var(--clr-9);
+
+  --tran-1: 0.4s;
+  --tran-2: 0.2s;
+
+  --sidebar-w: 250px;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-light);
+}

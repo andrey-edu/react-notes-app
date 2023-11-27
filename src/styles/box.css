@@ -1,0 +1,51 @@
+:root {
+  --offset-base-size: 5px;
+}
+
+.mt_5 {
+  margin-top: calc(var(--offset-base-size) * 5);
+}
+
+.p_1 {
+  padding: var(--offset-base-size);
+}
+
+.p_4 {
+  padding: calc(var(--offset-base-size) * 4);
+}
+
+.pt_2 {
+  padding-top: calc(var(--offset-base-size) * 2);
+}
+
+.pb_2 {
+  padding-bottom: calc(var(--offset-base-size) * 2);
+}
+
+.pl_4 {
+  padding-left: calc(var(--offset-base-size) * 4);
+}
+
+.pr_4 {
+  padding-right: calc(var(--offset-base-size) * 4);
+}
+
+.pt_5 {
+  padding-top: calc(var(--offset-base-size) * 5);
+}
+
+.pt_6 {
+  padding-top: calc(var(--offset-base-size) * 6);
+}
+
+.pb_6 {
+  padding-bottom: calc(var(--offset-base-size) * 6);
+}
+
+.pr_5 {
+  padding-right: calc(var(--offset-base-size) * 5);
+}
+
+.pl_5 {
+  padding-left: calc(var(--offset-base-size) * 5);
+}

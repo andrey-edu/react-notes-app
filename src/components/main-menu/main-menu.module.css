@@ -1,0 +1,29 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 6px;
+  padding-inline: 20px;
+}
+
+.submenu {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.title {
+  font-size: var(--fs);
+  font-weight: var(--fw-bold);
+  color: var(--color-light);
+}
+
+.extra {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  width: 100%;
+}
+

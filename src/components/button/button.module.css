@@ -1,0 +1,35 @@
+.button {
+  display: flex;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--bg-color-main);
+  color: var(--color-light);
+  cursor: pointer;
+  transition: background-color var(--tran-1);
+  flex-shrink: 0; /* Элемент не будет уменьшаться, он сохранит нужную ему ширину и не будет переносить содержимое, если размеры элемента не заданы. Его родные братья сократятся, чтобы освободить место для целевого элемента.  */
+}
+
+.button svg {
+  width: 100%;
+  height: 100%;
+}
+
+.button:hover {
+  background-color: var(--bg-color-active);
+}
+
+.active {
+  background-color: var(--bg-color-active);
+}
+
+.danger {
+  background-color: var(--bg-color-main);
+  color: var(--color-danger);
+}
+
+.danger:hover {
+  background-color: var(--bg-color-danger);
+}
